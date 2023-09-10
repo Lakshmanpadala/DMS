@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DMS| MID Marks</title>
+   
+    <style type="text/css">
+     body{
+        display: flex;
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment: fixed;
+        padding-right:500px;
+    
+    }
+    *{
+        
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+    }
+    .navbar{
+        width: 200px;
+        height:86%;
+        background:rgba(0, 27, 71, 1);
+        position:absolute;
+        margin-top:80px;
+        padding: 4px 0px 0px 0px;
+    }
+    .navbar ul li{
+        color: #ffff;
+        padding: 14px;
+        border-bottom: 1px solid rgba(135, 206, 235, 1)
+        
+    }
+    .navbar ul li a{
+        color: #ffff;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .navbar ul li:hover{
+        background-color: rgb(7, 246, 246);
+        color:black;
+    }
+    .footer{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    position: fixed;
+    justify-content: center;
+    width: 1280px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #353535;
+    text-align: center;
+    color: #fff;
+}
+.company-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0.5rem;
+}
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+}
+.std .container{ 
+    
+        width: 880px;
+        height: 400px;
+        padding:20px 0px 0px 20px;  
+        justify-content: space-between;
+        border-radius: 24px; 
+        background-color: white;
+        margin: 110px 30px 25px 280px;                          
+        box-shadow: 200px;    
+    }
+
+.std .container .tab tr .goback {
+    background:#FE6060;
+    color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding-left:100px;
+
+}
+.std .container .tab tr .update {
+   font-size: 25px;
+    list-style: none;
+  background: blue;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #fff;
+}
+.std .container .forms form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+}
+form .user-details .inputdetails{
+    width: 260px;
+    margin: 10px 11px 10px 12px ;
+}
+form .user-details .inputdetails input{
+    display: flex;
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: black;
+}
+.std .container .midopt{
+    display:flex;
+    width: 80;
+    flex-wrap: wrap;
+    margin-top:4px;
+}
+.midopt input{
+    width: 10cm;
+    height:30px;
+    border-radius: 10px;
+}
+.midopt .sub{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 2px 2px 2px;
+    margin:4px 4px 10px 33px;
+}
+.midopt .sub .subname input{
+    width: 320px;
+    margin:2px 10px 1px 15px ;
+}
+.head{
+            display: flex;
+            flex-wrap: wrap;
+            position:absolute;
+            width: 1366px;
+            height:80px;
+            background: rgba(53, 53, 53, 0.75);
+            align-items: center;
+            border:0px;
+        }
+.head button{
+     background-color: blue;
+     color:white;
+     font-size: 20px;
+     padding: 10px 10px;
+     border-radius:10px;
+}
+.head h4::after{
+    content:"Dakamarri, Visakhapatnam";
+    font-size:15px;
+    color:#9f9d9d; 
+    display: block;
+    text-align: left;
+}
+.head h3::after{
+    content:"USER, 203J1A04A3X";
+    font-size:19px;
+    color:red; 
+    display: block;
+    text-align: left;
+    padding-bottom:5px;
+    font-style: italic;
+}
+    </style>
+</head>
+  <body>
+    <fieldset class="head">
+        <div style="padding-bottom:10px;">
+            <img src="ritlogo.png" width="80px" height="70px; ">
+        </div>
+        <div>
+            <h4 style="color:white; font-size:20px;padding-bottom:10px; ">RAGHU INSTITUTE OF TECHNOLOGY(A)</h4>
+        </div>
+        <div style="padding-left:3cm;">
+            <h3 style="color:whitesmoke; font-size: 25px;"><i>Welcome Mentor</i></h3>
+        </div>
+        <div style="padding-left:5cm; border-color: blue; padding-bottom:10px;">
+            <button style="border:0px;">Logout</button>
+        </div>
+        <div style="padding-left:4cm;">
+            <img src="logo.png" width="150px" height="90px"style="padding-bottom:8px;">
+        </div>
+    </fieldset> 
+    <div class="navbar">
+        <ul>
+           <li><a href="student-details.html">Student Details</a></li>
+           <li><a href="education-details.html">Educational Details</a></li>
+           <li><a href="parent-details.html">Parent Details</a></li>
+           <li><a href="Aadhar-details.html">Aadhar Details</a></li>
+           <li><a href="MID-Marks.html">MID-Marks</a></li>
+           <li><a href="semmarks.htm">Semester Marks</a></li>
+           <li><a href="labmarks.html">Lab Marks </a></li>
+           <li><a href="visitors.html">Visitors</a></li>
+           <li><a href="grading-mentor.html">Grading Details</a></li>
+           <li><a href="Counselling-records.html">Counselling Details</a></li>
+       </ul>
+    </div>
+    <div class="std">
+        <div class="container">
+            <div class="forms">
+                <form action="#">
+                    <div class="user-details">
+                        <div class="inputdetails">
+                            <h4 style="color:red;font-size:35px; font-weight: bolder;font-weight: 800;">MID MARKS</h5>
+                        </div>
+                        <div class="inputdetails"style="padding-left:180px;">
+                            <input type="button" style=" background: rgba(254, 96, 96, 1); height:40px; width: 170px;
+                            ; color: black; font-weight:800;margin-top:-10px;"value="Go Back to User Page" required>
+                        </div>
+                        <div class="inputdetails">
+                            <input type="button" style=" background:blue; color: white; font-size: 20px; font-weight: 700;width: 100px;height:40px ; margin-left: 100px;margin-top:-10px;" value="&nbsp;&nbsp;Update" required>
+                        </div>
+                        <h5 style="color:red; padding-left:30%;font-size: 15px;"><i>NOTE: To be filled only after declaration of results</i></h5>
+                    </div>
+                </form>
+            </div>
+    <div class="midopt">
+        <fieldset style="display:flex; width:90%; margin-top:18px; margin-left:30px;padding-right:10px;border:0px;">
+           <div> <label style="padding-right: 250px;"><b>Select Semester<sup style="color:red;">*</sup><b></label>
+            <select name="semester" style=" width: 10cm; height:30px;border-radius:10px;border-width:3px;"><option value="1-1">1-1 Semester</option><option value="1-2">1-2 Semester</option><option value="2-1">2-1 Semester</option><option value="2-2">2-2 Semester</option><option value="3-1">3-1 Semester</option><option value="3-2">3-2 Semester</option><option value="4-1">4-1 Semester</option><option value="4-2">4-2 Semester</option></select></div>
+          <div> <label style="padding-right: 250px;"><b>Select MID<sup style="color:red;">*</sup><b></label>
+            <select name="MID" style=" width: 10cm; height:30px;border-radius:10px;border-width:3px;"><option value="MID-1"><b>MID-1</b></option><option value="MID-2"><b>MID-2</b></option></select></div>
+ 
+        </fieldset>
+        <fieldset  class="sub" style="border:0px; padding-top:10px;">
+            <div class="subname" style="padding:5px 0px;">
+              <label><b>Subject 1<sup style="color:red;">*</sup></b></label>
+            <input type="text" placeholder="Enter Subject Name">
+            <input type="text" placeholder="Enter subject marks">
+        </div>
+        <div class="subname" style="padding:5px 0px;">
+            <label><b>Subject 2<sup style="color:red;">*</sup></b></label>
+          <input type="text" placeholder="Enter Subject Name">
+          <input type="text" placeholder="Enter subject marks">
+      </div>  <div class="subname" style="padding:5px 0px;">
+        <label><b>Subject 3<sup style="color:red;">*</sup></b></label>
+      <input type="text" placeholder="Enter Subject Name">
+      <input type="text" placeholder="Enter subject marks">
+  </div>  <div class="subname" style="padding:5px 0px;">
+    <label><b>Subject 4<sup style="color:red;">*</sup></b></label>
+  <input type="text" placeholder="Enter Subject Name">
+  <input type="text" placeholder="Enter subject marks">
+</div>  <div class="subname" style="padding:5px 0px;">
+    <label><b>Subject 5<sup style="color:red;">*</sup></b></label>
+  <input type="text" placeholder="Enter Subject Name">
+  <input type="text" placeholder="Enter subject marks">
+</div>
+        </fieldset>
+
+    </div>
+</div>
+</div>
+    <footer class="footer">
+        <p class="company-name">
+            <span style="font-weight: semi-bold;">    All Rights Reserved <span> @ <span style="font-weight:bold;"> Raghu Institute of Technology </span>
+        </span></span></p>
+</footer>
+</div></body></html>
